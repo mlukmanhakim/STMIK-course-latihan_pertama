@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lukmancyb.com.androidapp.MainActivity">
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/header"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Latihan Membangun Aplikasi Android 2018"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/header"
+        android:id="@+id/logo_stmik"
+        android:src="@drawable/ic_stmik"
+        android:layout_width="145dp"
+        android:layout_height="145dp" />
+    <TextView
+        android:id="@+id/txt_stmik_lombok"
+        android:gravity="center"
+        android:layout_below="@+id/logo_stmik"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="STMIK LOMBOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_lokasi"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/txt_stmik_lombok"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_jalan"
+        android:layout_marginRight="26dp"
+        android:gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/txt_lokasi"
+        android:layout_below="@+id/txt_stmik_lombok"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:text="Jalan Basuki Rahmat, Praya "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="26dp"
+        android:hint="Masukan Komentar"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_below="@+id/txt_jalan"
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"
+        android:text="SUBMIT"
+        android:layout_below="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/orange"
+        android:layout_alignParentBottom="true"
+        android:text="LIHAT DITAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
