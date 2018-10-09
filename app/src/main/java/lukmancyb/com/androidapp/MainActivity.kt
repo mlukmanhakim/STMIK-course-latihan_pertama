@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("MainActivity", pesan)
 
-        val text = "Halo bersulang!"
+        val text = "Hello World!"
         val durasi = Toast.LENGTH_SHORT
         val toast = Toast.makeText (this, text, durasi)
         toast.show ()
@@ -47,10 +47,14 @@ class MainActivity : AppCompatActivity() {
 
         when(item?.itemId){
             R.id.profile->{
-                Log.d(TAG, "profile clicked")
-                val intent = Intent(this, ProfileActivity::class.java)
-                intent.putExtra("nama", "M LUKMAN HAKIM")
-                startActivity(intent)
+//                Log.d(TAG, "profile clicked")
+//                val intent = Intent(this, ProfileActivity::class.java)
+//                intent.putExtra("nama", "M LUKMAN HAKIM")
+//                startActivity(intent)
+                Toast.makeText (this, "Anda menekan menu profile", Toast.LENGTH_LONG).show()
+            }
+            R.id.setting->{
+                Toast.makeText (this, "Anda menekan menu profile", Toast.LENGTH_LONG).show()
             }
         }
         return true
