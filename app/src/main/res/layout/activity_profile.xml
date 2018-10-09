@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_nama"
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="@android:color/white"
+        android:id="@+id/camera"
+        android:background="@color/colorAccent"
+        android:text="Dial Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
